@@ -72,7 +72,12 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.0.M0</version>
         </dependency>
-
+	<dependency>
+  		<groupId>org.projectlombok</groupId>
+  		<artifactId>lombok</artifactId>
+  		<version>1.18.28</version>
+	</dependency>
+	
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
